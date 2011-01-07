@@ -1,0 +1,199 @@
+/*
+ * 
+ * EASY FORM CSS
+ * 
+ * Nick Routsong
+ * Routy Development
+ * http://blog.routydevelopment.com
+ * 
+ * v 1.0 - January 5, 2011
+ * 
+ */
+
+input[type="checkbox"],
+input[type="radio"]{
+	clear:left;
+	float:left;
+}
+
+.placeholder{
+	float:left;
+	width:100%;
+	background-color:#FFF8AF;
+	height:100px;
+	clear:left;
+	-moz-border-radius: 9px;
+	-webkit-border-radius:9px;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ef_elementActionWrapper {
+	-moz-border-radius: 12px;
+	-webkit-border-radius:12px;
+	position: relative;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #BBBBBB;
+    bottom: -15px;
+    line-height: 18px;
+    margin: 0 !important;
+    min-width: 0 !important;
+    padding: 4px 8px 4px !important;
+	float:right;
+    text-align: center;
+    width: auto !important;
+    z-index: 900 !important;
+	cursor:pointer !important;
+	visibility: hidden;
+}
+
+.ef_element{
+	clear:left;
+	float:left;
+}
+
+textarea.ef_element {
+	height:100px;
+}
+
+#ef_fieldSettingsWrapper {
+	background: #FFF;
+	color: #000;
+	float:left;
+	width:480px;
+	padding:10px;
+}
+.ef_settingsButtons{
+	clear:left;
+	float:left;
+	margin-top:20px;
+}
+.ef_settingsButtons .button{
+	width: 90px;
+}
+.ef_fieldSettings label, .ef_formSettings label {
+	clear:left;
+	float:left;
+	margin: 10px 0px;
+}
+.ef_fieldSettings input, .ef_formSettings input {
+	font-size:12px;
+	padding:4px;
+}
+.ef_fieldSettings input[type="text"] {
+	width:300px;
+}
+.ef_fieldSettings .fs_instructions {
+	height:100px;
+}
+
+.ef_activeElement{
+	background-color: #DFEFFF !important;
+    border: 1px solid #C2D7EF !important;
+}
+
+.ef_fieldWrapper {
+	width:545px;
+	margin:5px;
+	float:left;
+	padding:5px;
+}
+.ef_fieldWrapper:hover {
+	border: dashed 1px #000;
+	margin:4px;
+	cursor: pointer;
+}
+.ef_fieldWrapper label {
+	float:left;
+	color: #000;
+}
+
+.ef_previewElementLabel {
+	clear:left;
+	float:left;
+}
+
+.ef_previewCheckboxLabel,
+.ef_previewRadioLabel {
+	float:left;
+	font-weight:normal;
+    margin-top:3px;
+    margin-left:10px;
+}
+
+.ef_option {
+	clear:left;
+	float:left;
+}
+.ef_options {
+	background: #CFE7FF;
+	margin-top:20px;
+	padding:15px;
+}
+.ef_optionsTitle{
+	-moz-border-radius: 14px;
+	-webkit-border-radius:14px;
+    background: none repeat scroll 0 0 #CFE7FF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8px 15px;
+    position: relative;
+    top: -25px;
+	left: -15px;
+}
+.ef_roundAll {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.ef_roundTop {
+	-moz-border-radius: 5px 5px 0px;
+	-webkit-border-radius:5px 5px 0px;
+}
+.ef_roundBottom {
+	-moz-border-radius: 0px 5px;
+	-webkit-border-radius: 0px 5px;
+}
+.ef_left {
+	float:left;
+}
+
+#ef_settingsWrapper{
+	background-color:#FFF;
+    float:left;
+    width:440px;
+	padding: 10px;
+	margin: 0 10px;
+	color: #000;
+}
+#ef_previewWrapper{
+	background-color:#FFF;
+	float:left;
+	width:600px;
+	padding:10px;
+}
+#ef_elementList{
+	list-style: none outside none;
+    margin-left: -25px;
+}
+
+.button {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    background: url("/images/v1/backgrounds/white-grad.png") repeat-x scroll left top #EAEAEA;
+    border-color: #DEDEDE #BBBBBB #BFBFBF #DEDEDE;
+    border-style: solid;
+    border-width: 1px;
+    color: #464646;
+    display: block;
+    float: left;
+    font-family: "Lucida Grande",Tahoma,Arial,sans-serif;
+    font-size: 100%;
+    line-height: 130%;
+    margin: 0 0.7em 0 0;
+    padding: 5px 10px 6px;
+    text-decoration: none;
+}
+.button:hover {
+	background:#DFEEA3;
+}
